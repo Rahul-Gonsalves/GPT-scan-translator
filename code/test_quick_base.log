@@ -1,0 +1,7 @@
+The file './tokenizer/simple_vocab.json' exists. Loading tokenizer.
+{'<pad>': 0, '<s>': 1, '</s>': 2, '<unk>': 3, 'I_TURN_RIGHT': 4, 'I_JUMP': 5, 'I_WALK': 6, 'I_TURN_LEFT': 7, 'I_RUN': 8, 'I_LOOK': 9, 'jump': 10, 'opposite': 11, 'right': 12, 'twice': 13, 'and': 14, 'turn': 15, 'thrice': 16, 'run': 17, 'left': 18, 'after': 19, 'walk': 20, 'around': 21, 'look': 22}
+Loading model from: ./cond_gpt/weights/quick_base_simplesplit_2layer_2head_16embd_32bs.pt
+Total params: 9408
+
+Testing on 4182 examples...
+  0%|          | 0/4182 [00:00<?, ?it/s]Accuracy: 0.0000:   0%|          | 0/4182 [00:01<?, ?it/s]Accuracy: 0.0000:   0%|          | 1/4182 [00:01<1:16:56,  1.10s/it]Accuracy: 0.0000:   0%|          | 2/4182 [00:01<55:37,  1.25it/s]  Accuracy: 0.0000:   0%|          | 3/4182 [00:03<1:39:31,  1.43s/it]
